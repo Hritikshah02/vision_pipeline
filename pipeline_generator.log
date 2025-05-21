@@ -1,0 +1,109 @@
+2025-05-21 11:11:10,888 - vision_pipeline - INFO - PyTorch and Transformers libraries successfully imported
+2025-05-21 11:30:09,642 - vision_pipeline - INFO - PyTorch and Transformers libraries successfully imported
+2025-05-21 11:30:09,642 - vision_pipeline - INFO - Successfully imported functions from both script files
+2025-05-21 11:30:09,646 - vision_pipeline - INFO - Processing prompt: 'Detect an object from my prompt then estimate grasp and physical properties for that Object once then estimate live pose for that Object continuously.'
+2025-05-21 11:30:09,646 - vision_pipeline - INFO - Normalized prompt: 'detect an object from my prompt then detect grasp and physical property for that object once then detect live pose for that object continuous'
+2025-05-21 11:30:09,646 - vision_pipeline - INFO - EXACT MATCH found in predefined pipelines: 'detect an object from my prompt then estimate grasp and physical properties for that object once then estimate live pose for that object continuously'
+2025-05-21 11:30:09,646 - vision_pipeline - INFO - Pipeline JSON saved to 'example_1.json'
+2025-05-21 11:30:09,650 - vision_pipeline - INFO - Python code saved to 'example_1.py'
+2025-05-21 11:30:09,650 - vision_pipeline - INFO - Processing prompt: 'detect objects'
+2025-05-21 11:30:09,650 - vision_pipeline - INFO - Normalized prompt: 'detect object'
+2025-05-21 11:30:09,650 - vision_pipeline - INFO - EXACT MATCH found in predefined pipelines: 'detect objects'
+2025-05-21 11:30:09,652 - vision_pipeline - INFO - Pipeline JSON saved to 'example_2.json'
+2025-05-21 11:30:09,654 - vision_pipeline - INFO - Python code saved to 'example_2.py'
+2025-05-21 11:30:09,654 - vision_pipeline - INFO - Processing prompt: 'Detect objects and read text in parallel at level 0, then analyze properties at level 1.'
+2025-05-21 11:30:09,657 - vision_pipeline - INFO - Normalized prompt: 'detect object and read text in parallel at level 0, then analyze properties at level 1'
+2025-05-21 11:30:09,657 - vision_pipeline - INFO - No exact match found, generating pipeline...
+2025-05-21 11:30:09,658 - vision_pipeline - INFO - Loading TinyLLaMA from TinyLlama/TinyLlama-1.1B-Chat-v1.0...
+2025-05-21 11:30:17,014 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-05-21 11:30:17,045 - vision_pipeline - ERROR - Failed to initialize TinyLLaMA: CUDA is required but not available for bitsandbytes. Please consider installing the multi-platform enabled version of bitsandbytes, which is currently a work in progress. Please check currently supported platforms and installation instructions at https://huggingface.co/docs/bitsandbytes/main/en/installation#multi-backend
+2025-05-21 11:30:17,046 - vision_pipeline - ERROR - Error initializing TinyLLaMA: CUDA is required but not available for bitsandbytes. Please consider installing the multi-platform enabled version of bitsandbytes, which is currently a work in progress. Please check currently supported platforms and installation instructions at https://huggingface.co/docs/bitsandbytes/main/en/installation#multi-backend
+2025-05-21 11:30:17,046 - vision_pipeline - INFO - Initialized HybridPipelineGenerator, LLM available: False
+2025-05-21 11:30:17,046 - vision_pipeline - INFO - Initialized HierarchicalPipelineGenerator
+2025-05-21 11:30:17,046 - vision_pipeline - INFO - Initialized CachingPipelineGenerator with cache_size=100
+2025-05-21 11:30:17,049 - vision_pipeline - INFO - Generating pipeline for: 'Detect objects and read text in parallel at level 0, then analyze properties at level 1.'
+2025-05-21 11:30:17,049 - vision_pipeline - INFO - LLM not available, skipping LLM-based generation
+2025-05-21 11:30:17,049 - vision_pipeline - INFO - Falling back to rule-based generation
+2025-05-21 11:30:17,049 - vision_pipeline - INFO - Using rule-based pipeline generation
+2025-05-21 11:30:17,049 - vision_pipeline - INFO - No matching predefined pipeline, defaulting to 'detect objects'
+2025-05-21 11:30:17,049 - vision_pipeline - INFO - Assigning hierarchical levels to pipeline
+2025-05-21 11:30:17,051 - vision_pipeline - INFO - Assigned levels to pipeline with 1 modules
+2025-05-21 11:30:17,051 - vision_pipeline - INFO - Pipeline generation took 0.00 seconds
+2025-05-21 11:30:17,051 - vision_pipeline - INFO - Added to cache: 'detect objects and read text in parallel at level 0, then analyze properties at level 1.'
+2025-05-21 11:30:17,052 - vision_pipeline - INFO - Pipeline semantic validation: FAILED
+2025-05-21 11:30:17,052 - vision_pipeline - WARNING - Semantic issues found: ['Missing OCR module']
+2025-05-21 11:30:17,052 - vision_pipeline - WARNING - Generated pipeline has semantic issues: ['Missing OCR module']
+2025-05-21 11:30:17,054 - vision_pipeline - INFO - Pipeline JSON saved to 'input.json'
+2025-05-21 11:30:17,059 - vision_pipeline - INFO - Python code saved to 'generated_pipeline.py'
+2025-05-21 11:35:14,376 - vision_pipeline - INFO - PyTorch and Transformers libraries successfully imported
+2025-05-21 11:35:14,376 - vision_pipeline - INFO - Successfully imported functions from both script files
+2025-05-21 11:35:14,376 - vision_pipeline - INFO - Processing prompt: 'Detect an object from my prompt then estimate grasp and physical properties for that Object once then estimate live pose for that Object continuously.'
+2025-05-21 11:35:14,376 - vision_pipeline - INFO - Normalized prompt: 'detect an object from my prompt then detect grasp and physical property for that object once then detect live pose for that object continuous'
+2025-05-21 11:35:14,376 - vision_pipeline - INFO - EXACT MATCH found in predefined pipelines: 'detect an object from my prompt then estimate grasp and physical properties for that object once then estimate live pose for that object continuously'
+2025-05-21 11:35:14,376 - vision_pipeline - INFO - Pipeline JSON saved to 'example_1.json'
+2025-05-21 11:35:14,376 - vision_pipeline - INFO - Python code saved to 'example_1.py'
+2025-05-21 11:35:14,376 - vision_pipeline - INFO - Processing prompt: 'detect objects'
+2025-05-21 11:35:14,383 - vision_pipeline - INFO - Normalized prompt: 'detect object'
+2025-05-21 11:35:14,383 - vision_pipeline - INFO - EXACT MATCH found in predefined pipelines: 'detect objects'
+2025-05-21 11:35:14,383 - vision_pipeline - INFO - Pipeline JSON saved to 'example_2.json'
+2025-05-21 11:35:14,383 - vision_pipeline - INFO - Python code saved to 'example_2.py'
+2025-05-21 11:35:14,383 - vision_pipeline - INFO - Processing prompt: 'Detect objects and read text in parallel at level 0, then analyze properties at level 1.'
+2025-05-21 11:35:14,383 - vision_pipeline - INFO - Normalized prompt: 'detect object and read text in parallel at level 0, then analyze properties at level 1'
+2025-05-21 11:35:14,383 - vision_pipeline - INFO - No exact match found, generating pipeline...
+2025-05-21 11:35:14,383 - vision_pipeline - INFO - Loading TinyLLaMA from TinyLlama/TinyLlama-1.1B-Chat-v1.0...
+2025-05-21 11:35:21,710 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-05-21 11:35:21,738 - vision_pipeline - ERROR - Failed to initialize TinyLLaMA: CUDA is required but not available for bitsandbytes. Please consider installing the multi-platform enabled version of bitsandbytes, which is currently a work in progress. Please check currently supported platforms and installation instructions at https://huggingface.co/docs/bitsandbytes/main/en/installation#multi-backend
+2025-05-21 11:35:21,738 - vision_pipeline - ERROR - Error initializing TinyLLaMA: CUDA is required but not available for bitsandbytes. Please consider installing the multi-platform enabled version of bitsandbytes, which is currently a work in progress. Please check currently supported platforms and installation instructions at https://huggingface.co/docs/bitsandbytes/main/en/installation#multi-backend
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Initialized HybridPipelineGenerator, LLM available: False
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Initialized HierarchicalPipelineGenerator
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Initialized CachingPipelineGenerator with cache_size=100
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Generating pipeline for: 'Detect objects and read text in parallel at level 0, then analyze properties at level 1.'
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - LLM not available, skipping LLM-based generation
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Falling back to rule-based generation
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Using rule-based pipeline generation
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - No matching predefined pipeline, defaulting to 'detect objects'
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Assigning hierarchical levels to pipeline
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Assigned levels to pipeline with 1 modules
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Pipeline generation took 0.00 seconds
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Added to cache: 'detect objects and read text in parallel at level 0, then analyze properties at level 1.'
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Pipeline semantic validation: FAILED
+2025-05-21 11:35:21,738 - vision_pipeline - WARNING - Semantic issues found: ['Missing OCR module']
+2025-05-21 11:35:21,738 - vision_pipeline - WARNING - Generated pipeline has semantic issues: ['Missing OCR module']
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Pipeline JSON saved to 'example_3.json'
+2025-05-21 11:35:21,738 - vision_pipeline - INFO - Python code saved to 'example_3.py'
+2025-05-21 11:37:14,665 - vision_pipeline - INFO - PyTorch and Transformers libraries successfully imported
+2025-05-21 11:37:14,665 - vision_pipeline - INFO - Successfully imported functions from both script files
+2025-05-21 11:37:14,675 - vision_pipeline - INFO - Processing prompt: 'Detect an object from my prompt then estimate grasp and physical properties for that Object once then estimate live pose for that Object continuously.'
+2025-05-21 11:37:14,675 - vision_pipeline - INFO - Normalized prompt: 'detect an object from my prompt then detect grasp and physical property for that object once then detect live pose for that object continuous'
+2025-05-21 11:37:14,675 - vision_pipeline - INFO - EXACT MATCH found in predefined pipelines: 'detect an object from my prompt then estimate grasp and physical properties for that object once then estimate live pose for that object continuously'
+2025-05-21 11:37:14,675 - vision_pipeline - INFO - Pipeline JSON saved to 'example_1.json'
+2025-05-21 11:37:14,675 - vision_pipeline - INFO - Python code saved to 'example_1.py'
+2025-05-21 11:37:14,678 - vision_pipeline - INFO - Processing prompt: 'detect objects'
+2025-05-21 11:37:14,678 - vision_pipeline - INFO - Normalized prompt: 'detect object'
+2025-05-21 11:37:14,678 - vision_pipeline - INFO - EXACT MATCH found in predefined pipelines: 'detect objects'
+2025-05-21 11:37:14,678 - vision_pipeline - INFO - Pipeline JSON saved to 'example_2.json'
+2025-05-21 11:37:14,680 - vision_pipeline - INFO - Python code saved to 'example_2.py'
+2025-05-21 11:37:14,680 - vision_pipeline - INFO - Processing prompt: 'Detect objects and read text in parallel at level 0, then analyze properties at level 1.'
+2025-05-21 11:37:14,680 - vision_pipeline - INFO - Normalized prompt: 'detect object and read text in parallel at level 0, then analyze properties at level 1'
+2025-05-21 11:37:14,683 - vision_pipeline - INFO - No exact match found, generating pipeline...
+2025-05-21 11:37:14,683 - vision_pipeline - INFO - Loading TinyLLaMA from TinyLlama/TinyLlama-1.1B-Chat-v1.0...
+2025-05-21 11:37:20,909 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-05-21 11:37:20,942 - vision_pipeline - ERROR - Failed to initialize TinyLLaMA: CUDA is required but not available for bitsandbytes. Please consider installing the multi-platform enabled version of bitsandbytes, which is currently a work in progress. Please check currently supported platforms and installation instructions at https://huggingface.co/docs/bitsandbytes/main/en/installation#multi-backend
+2025-05-21 11:37:20,942 - vision_pipeline - ERROR - Error initializing TinyLLaMA: CUDA is required but not available for bitsandbytes. Please consider installing the multi-platform enabled version of bitsandbytes, which is currently a work in progress. Please check currently supported platforms and installation instructions at https://huggingface.co/docs/bitsandbytes/main/en/installation#multi-backend
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Initialized HybridPipelineGenerator, LLM available: False
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Initialized HierarchicalPipelineGenerator
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Initialized CachingPipelineGenerator with cache_size=100
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Generating pipeline for: 'Detect objects and read text in parallel at level 0, then analyze properties at level 1.'
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - LLM not available, skipping LLM-based generation
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Falling back to rule-based generation
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Using rule-based pipeline generation
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - No matching predefined pipeline, defaulting to 'detect objects'
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Assigning hierarchical levels to pipeline
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Assigned levels to pipeline with 1 modules
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Pipeline generation took 0.00 seconds
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Added to cache: 'detect objects and read text in parallel at level 0, then analyze properties at level 1.'
+2025-05-21 11:37:20,942 - vision_pipeline - INFO - Pipeline semantic validation: FAILED
+2025-05-21 11:37:20,942 - vision_pipeline - WARNING - Semantic issues found: ['Missing OCR module']
+2025-05-21 11:37:20,942 - vision_pipeline - WARNING - Generated pipeline has semantic issues: ['Missing OCR module']
+2025-05-21 11:37:20,956 - vision_pipeline - INFO - Pipeline JSON saved to 'example_3.json'
+2025-05-21 11:37:20,956 - vision_pipeline - INFO - Python code saved to 'example_3.py'
